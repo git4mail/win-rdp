@@ -1,4 +1,4 @@
-# Windows2019RDP-US-for-educational-purposes
+# Windows2019RDP-US-for-educational-purposes and Not for mining purposes
 Windows Server 2019 Github with RDP Access (ngrok US) 
 Repo link: https://github.com/b3lik0v-ich/windows-rdp-2019-us
 
