@@ -40,5 +40,13 @@ jobs:
       run: cmd /c NGROK-CHECK.bat
     - name: All Done! You can close Tab now! Maximum VM time:6h.
       run: python sleep.py
-      
+    - name: The job has succeeded
+      if: ${{ success() }}
+      run: echo 'all jobs have succeeded!'
+    - name: The job has cancelled
+      if: ${{ cancelled() }}
+      run: echo 'some jobs have cancelled!'
+    - name: The job has failed
+      if: ${{ failure() }}
+      run: echo 'some jobs have failed!'
     
